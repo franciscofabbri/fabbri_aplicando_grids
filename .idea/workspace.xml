@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a1af6bd3-1532-4480-86ed-3aed50da3e7a" name="Changes" comment="first commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="ProjectId" id="212x3aX9JgB3o0Q5XR8EpmflTG0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a1af6bd3-1532-4480-86ed-3aed50da3e7a" name="Changes" comment="" />
+      <created>1637152785507</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1637152785507</updated>
+      <workItem from="1637152786795" duration="22742000" />
+      <workItem from="1637237923666" duration="60000" />
+      <workItem from="1637252625082" duration="454000" />
+      <workItem from="1637422455997" duration="57000" />
+      <workItem from="1637783885994" duration="100000" />
+      <workItem from="1637806892258" duration="4841000" />
+      <workItem from="1637811798237" duration="60000" />
+      <workItem from="1637811869118" duration="4000" />
+      <workItem from="1637811912360" duration="20000" />
+      <workItem from="1637839958007" duration="546000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1637153076274</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1637153076274</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial commit">
+      <created>1637153209963</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1637153209963</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Initial commit">
+      <created>1637169006071</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1637169006071</updated>
+    </task>
+    <task id="LOCAL-00004" summary="About us section commit">
+      <created>1637169725336</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1637169725336</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Return home button fix">
+      <created>1637171458369</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1637171458369</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Footer modification">
+      <created>1637171671327</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1637171671327</updated>
+    </task>
+    <task id="LOCAL-00007" summary="What we do section modification">
+      <created>1637175863190</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1637175863190</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Home button fix">
+      <created>1637178354796</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1637178354796</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Who we are section">
+      <created>1637179012756</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1637179012756</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Final commit - main page">
+      <created>1637187236368</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1637187236368</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Final commit - main page">
+      <created>1637187277194</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1637187277194</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Final commit - second page">
+      <created>1637188947131</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1637188947132</updated>
+    </task>
+    <task id="LOCAL-00013" summary="html file with wireframe link">
+      <created>1637189089304</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1637189089304</updated>
+    </task>
+    <task id="LOCAL-00014" summary="first commit">
+      <created>1637840183182</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1637840183182</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="About us section commit" />
+    <MESSAGE value="Return home button fix" />
+    <MESSAGE value="Footer modification" />
+    <MESSAGE value="What we do section modification" />
+    <MESSAGE value="Home button fix" />
+    <MESSAGE value="Who we are section" />
+    <MESSAGE value="Final commit - main page" />
+    <MESSAGE value="Final commit - second page" />
+    <MESSAGE value="html file with wireframe link" />
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+  </component>
+</project>

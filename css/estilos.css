@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,100;1,700&family=Yanone+Kaffeesatz:wght@200;300;400&display=swap');
+
+  * {
+    margin: 0;
+    padding: 0;
+    /*list-style-type: none;*/
+}
+
+#general_container{
+    display: grid;
+    grid-template-areas:
+    "nav nav nav";
+    "footer"
+}
+
+
+/* NAVBAR */
+header{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.nav_bar{
+    grid-area: nav;
+    text-decoration: none;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.logo{
+    display: flex;
+
+}
+
+.logo h1{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: steelblue;
+    position: relative;
+    top: 15px;
+}
+
+.nav_bar .image1{
+    height: 100px;
+}
+
+.nav_bar ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.nav_bar li{
+    margin-left: 20px;
+    list-style-type: none;
+}
+
+.nav_bar ul li a{
+    text-decoration: none;
+    font-family: 'Roboto' , sans-serif;
+    color: steelblue;
+    font-size: 14px;
+    font-weight: bold;
+}
+.nav_bar ul li a:hover{
+    color: lightskyblue;
+    text-decoration: underline;
+}
+/* END NAVBAR */
+
+.titles{
+    font-family: Roboto , sans-serif;
+    color: #8bcbff;
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+.subtitles{
+    font-family: Roboto , sans-serif;
+    color: skyblue;
+    font-weight: inherit;
+    font-size: 50px;
+}
+
+.sections_text {
+    font-family: Roboto , sans-serif;
+    color: steelblue;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.sections_text ul{
+    font-family: Roboto , sans-serif;
+    color: skyblue;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.container-about-us{
+    display: grid;
+    grid-template-areas:
+    "tit tit ."
+    "img img img"
+    "cont cont cont";
+    grid-column-gap: 10px;
+    grid-row-gap: 50px;
+    justify-items: start;
+    align-items: center;
+    justify-content: space-evenly;
+    /*background: linear-gradient(90deg, rgba(19,19,148,0.4962185557816877) 0%, rgba(44,100,241,1) 14%, rgba(2,0,36,1) 94%);*/
+    /*padding: 117px;*/
+    background-color: white;
+}
+
+.container-about-us h1{
+    grid-area: tit;
+    background-color: red;
+}
+.container-about-us img{
+    grid-area: img;
+    background-color: green;
+}
+.container-about-us p{
+    grid-area: cont;
+    background-color: yellow;
+}
+/*Who we are section*/
+.container-who-we-are{
+    padding: 150px;
+    background: linear-gradient(90deg, rgba(19,19,148,0.4962185557816877) 0%, rgba(44,100,241,1) 14%, rgba(2,0,36,1) 94%);
+}
+
+.container-persons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-persons .card-person {
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    height: 400px;
+    background-color: steelblue;
+    border-radius: 10px;
+    box-shadow: 5px 3px #0000005e;
+    color: white;
+    font-family: "Roboto Thin", sans-serif;
+    font-size: 20px;
+}
+
+.container-persons .card-person img {
+    width: 80%;
+}
+/*Who we are section end*/
+
+
+
+/*What we do section*/
+.container-what-we-do{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: linear-gradient(90deg, rgba(19,19,148,0.4962185557816877) 0%, rgba(44,100,241,1) 14%, rgba(2,0,36,1) 94%);
+    padding: 150px;
+}
+
+.title-what-we-do{
+    font-family: Roboto , sans-serif;
+    color: #234a6a;
+    font-weight: bolder;
+    font-size: 60px;
+    margin-left: 10%;
+    justify-self: center;
+}
+
+.subtitle-what-we-do{
+    font-family: Roboto , sans-serif;
+    color: skyblue;
+    font-weight: inherit;
+    font-size: 45px;
+}
+
+.sections_text-what-we-do{
+    font-family: Roboto , sans-serif;
+    color: steelblue;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.sections_text-what-we-do ul {
+    font-family: Roboto , sans-serif;
+    color: skyblue;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.container-what-we-do ul li{
+    margin-left: 5%;
+}
+/*What we do section END*/
+
+/*What we know section*/
+.container-what-we-know{
+    background: linear-gradient(90deg, rgba(19,19,148,0.4962185557816877) 0%, rgba(44,100,241,1) 14%, rgba(2,0,36,1) 94%);
+    padding: 120px;
+}
+
+.container-techs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.container-techs img{
+    margin: 5px;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+/*What we know section end*/
+
+/*Where we are section*/
+
+.container-where-we-are{
+    background: linear-gradient(90deg, rgba(19,19,148,0.4962185557816877) 0%, rgba(44,100,241,1) 14%, rgba(2,0,36,1) 94%);
+    justify-content: center;
+    padding: 200px;
+}
+/*Where we are section end*/
+
+.message_box {
+    width: 45%;
+    height: 150px;
+    margin: auto;
+    position: relative;
+}
+
+.container-contact-us{
+    background: linear-gradient(90deg, rgba(19,19,148,0.4962185557816877) 0%, rgba(44,100,241,1) 14%, rgba(2,0,36,1) 94%);
+    padding: 100px;
+}
+.sections_text-contact-us {
+    font-family: Roboto , sans-serif;
+    color: #062d4d;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.container-join-us{
+    background: linear-gradient(90deg, rgba(19,19,148,0.4962185557816877) 0%, rgba(44,100,241,1) 14%, rgba(2,0,36,1) 94%);
+    padding: 120px;
+}
+
+.container-join-us img{
+    size: 10px;
+}
+
+.send_button {
+    width: 10%;
+    height: 40px;
+    margin: auto;
+    position: relative;
+}
+
+/*Return button*/
+.return_button{
+    text-decoration: none;
+    position: fixed;
+    bottom: 0;
+    right: 10px;
+    background-color: transparent;
+    font-family: Roboto , sans-serif;
+    color: lightskyblue;
+}
+/*Return button end */
+
+/*FOOTER*/
+.footer{
+    grid-area: footer;
+    text-decoration: none;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    height: 25px;
+}
+
+.footer ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 40px;
+}
+.footer li{
+    margin-right: 20px;
+}
+
+.footer ul li a{
+    text-decoration: none;
+    font-family: 'Roboto' , sans-serif;
+    color: dodgerblue;
+    font-size: 10px;
+    font-weight: bold;
+}
+/*FOOTER END*/

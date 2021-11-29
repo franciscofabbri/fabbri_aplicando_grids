@@ -17,7 +17,7 @@ header{
     display: flex;
     grid-area: nav;
     text-decoration: none;
-    background-color: white;
+    background-color: transparent;
     justify-content: center;
 }
 .logo{

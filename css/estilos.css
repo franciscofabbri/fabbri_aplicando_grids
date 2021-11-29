@@ -293,7 +293,7 @@ header{
 .footer{
     grid-area: footer;
     text-decoration: none;
-    background-color: white;
+    background-color: #1313947E;
     display: flex;
     justify-content: flex-start;
     height: 25px;
@@ -307,12 +307,13 @@ header{
 }
 .footer li{
     margin-right: 20px;
+    list-style-type: none;
 }
 
 .footer ul li a{
     text-decoration: none;
     font-family: 'Roboto' , sans-serif;
-    color: dodgerblue;
+    color: #D3472C;
     font-size: 10px;
     font-weight: bold;
 }

@@ -65,14 +65,14 @@ header{
 
 .subtitles{
     font-family: Roboto , sans-serif;
-    color: skyblue;
+    color: #D3472C;
     font-weight: inherit;
     font-size: 50px;
 }
 
 .sections_text {
     font-family: Roboto , sans-serif;
-    color: steelblue;
+    color: b45346;
     font-weight: bold;
     font-size: 20px;
 }
@@ -116,7 +116,7 @@ header{
 .container-about-us .content p{
     list-style-type: none;
     font-family: Roboto , sans-serif;
-    color: steelblue;
+    color: #D3472C;
 }
 
 .container-about-us .content ul{
@@ -129,62 +129,68 @@ header{
     padding: 150px;
     background: linear-gradient(90deg, rgba(19,19,148,0.4962185557816877) 0%, rgba(44,100,241,1) 14%, rgba(2,0,36,1) 94%);
 }
-
 .container-persons {
     display: flex;
     flex-wrap: wrap;
 }
-
 .container-persons .card-person {
     width: 200px;
     padding: 10px;
     margin: 10px;
     height: 400px;
-    background-color: steelblue;
+    background-color: #D3472C;
     border-radius: 10px;
     box-shadow: 5px 3px #0000005e;
-    color: white;
+    color: #2CB8D3;
     font-family: "Roboto Thin", sans-serif;
     font-size: 20px;
 }
-
 .container-persons .card-person img {
     width: 80%;
 }
 /*Who we are section end*/
 
-
-
 /*What we do section*/
 .container-what-we-do{
-    display: flex;
+    display: grid;
+    grid-template-areas:
+    "cont2 . ."
+    ". img2 ."
+    ". . tit2";
     align-items: center;
     justify-content: space-evenly;
     background: linear-gradient(90deg, rgba(19,19,148,0.4962185557816877) 0%, rgba(44,100,241,1) 14%, rgba(2,0,36,1) 94%);
     padding: 150px;
 }
 
-.title-what-we-do{
+/*.title-what-we-do{
     font-family: Roboto , sans-serif;
     color: #234a6a;
     font-weight: bolder;
     font-size: 60px;
     margin-left: 10%;
     justify-self: center;
-}
+}*/
 
 .subtitle-what-we-do{
+    grid-area: tit2;
     font-family: Roboto , sans-serif;
-    color: skyblue;
+    color: D3472C;
     font-weight: inherit;
     font-size: 45px;
 }
 
 .sections_text-what-we-do{
+    grid-area: cont2;
     font-family: Roboto , sans-serif;
-    color: steelblue;
+    color: D3472C;
     font-weight: bold;
     font-size: 35px;
+}
+
+.container-what-we-do img{
+    width: 100%;
+    grid-area: img2;
 }
 
 .sections_text-what-we-do ul {
@@ -249,12 +255,19 @@ header{
 }
 
 .container-join-us{
+    display: flex;
     background: linear-gradient(90deg, rgba(19,19,148,0.4962185557816877) 0%, rgba(44,100,241,1) 14%, rgba(2,0,36,1) 94%);
     padding: 120px;
+    align-items: center;
+    justify-content: center;
 }
 
 .container-join-us img{
-    size: 10px;
+    width: 40%;
+}
+
+.container-join-us a{
+    text-decoration: none;
 }
 
 .send_button {

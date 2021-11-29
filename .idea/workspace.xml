@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a1af6bd3-1532-4480-86ed-3aed50da3e7a" name="Changes" comment="first commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/pngegg.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/estilos.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/estilos.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -63,7 +64,7 @@
       <workItem from="1637811912360" duration="20000" />
       <workItem from="1637839958007" duration="546000" />
       <workItem from="1637849393576" duration="5804000" />
-      <workItem from="1638223629221" duration="1196000" />
+      <workItem from="1638223629221" duration="3357000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1637153076274</created>

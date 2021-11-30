@@ -348,4 +348,9 @@ background: linear-gradient(90deg, rgba(44,184,211,1) 0%, rgba(17,205,238,1) 29%
     font-size: 10px;
     font-weight: bold;
 }
+
+.footer ul li a:hover{
+    color: #9a1e06;
+    text-decoration: underline;
+}
 /*FOOTER END*/
